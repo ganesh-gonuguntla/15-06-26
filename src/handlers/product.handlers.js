@@ -2,7 +2,7 @@ const productServices = require('../services/product.services');
 
 function createProduct(req, res){
     const productData = req.body;
-    const newProduct = productServices.createProduct(productData);
+    const newProduct = productServices.addProduct(productData);
     res.status(201).json(newProduct);
 }
 
