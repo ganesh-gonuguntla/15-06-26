@@ -1,6 +1,6 @@
-const products = require('../modules/product.modules');
-const users = require('../modules/user.modules');
-const orders = require('../modules/order.modules');
+const products = require('../models/product.modules');
+const users = require('../models/user.modules');
+const orders = require('../models/order.modules');
 
 function addProduct(productData){
     const newProductId = products.length + 1;

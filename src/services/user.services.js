@@ -1,4 +1,4 @@
-const users = require('../modules/user.modules');
+const users = require('../models/user.modules');
 
 function getAllUsers(){
     return users;
