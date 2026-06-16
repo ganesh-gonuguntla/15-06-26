@@ -1,6 +1,6 @@
-const orders = require('../modules/order.modules');
-const users = require('../modules/user.modules');
-const products = require('../modules/product.modules');
+const orders = require('../models/order.modules');
+const users = require('../models/user.modules');
+const products = require('../models/product.modules');
 
 function createOrder(orderData){
     const { productId, userId, quantity } = orderData;
